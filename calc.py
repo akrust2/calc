@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-stacks = [{"id":0, "stack":[1, 2]}]
+stacks = []
 
 
 def find_next_id():
